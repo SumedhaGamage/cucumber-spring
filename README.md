@@ -7,7 +7,8 @@
         String B = "0051 0000 23586 2000";
         String C = "0051 0000 23686 2001";
         String AA = mismatchingSubString(A,C);
-        System.out.println(AA);
+        String BB = mismatchingSubString(C,A);
+        System.out.println(AA+" | "+BB);
     }
 
 
